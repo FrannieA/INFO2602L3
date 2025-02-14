@@ -11,7 +11,7 @@ db.init_app(app)
 def initialize():
   db.drop_all()
   db.create_all()
-  pam = Admin('1123', 'pam', 'pam@mail.com', 'pampass')
+  pam = Admin("1111", "pam", "pam@mail.com", "pampass")
   bob = RegularUser('bob', 'bob@mail.com', 'bobpass')
   rick = RegularUser('rick', 'rick@mail.com', 'rickpass')
   sally = RegularUser('sally', 'sally@mail.com', 'sallypass')
